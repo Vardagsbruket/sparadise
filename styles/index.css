@@ -26,6 +26,21 @@ p   {
     font-size: 16px;
 }
 
+.button {
+    background-color: #501C65; 
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#AAA4CC;
+    transition: 0.8s;
+}
 
 /* Our color palette: 
     #501C65 (the dark purple provided by Michelle)
