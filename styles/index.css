@@ -1,5 +1,61 @@
 .body {
     background-color: #96AD8F;
+
+}
+
+h1  {
+    font-family: 'Poppins', sans-serif;
+    color: #501C65;
+    font-size: 40px;
+}
+
+h2  {
+    font-family: 'Poppins', sans-serif;
+    color: #501C65;
+    font-size: 30px;
+}
+
+h3  {
+    font-family: 'Poppins', sans-serif;
+    color: #501C65;
+    font-size: 20px;
+}
+
+p   {
+    font-family: 'Montserrat', sans-serif;
+    color: #501C65;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #501C65; 
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#AAA4CC;
+    transition: 0.8s;
+}
+
+/* Our color palette: 
+    #501C65 (the dark purple provided by Michelle)
+    #96AD8F (the green sage one)
+    #AAA4CC (the lighter purple for "decor"/details, such as borders etc)
+    #FFFFFF (white for containers etc. where you want other color than green as background) 
+    
+    Our Fonts: 
+    Poppins - for headings (and logo?)
+    Montserrat - main p font 
+
+    LINK to Google Fonts <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    */ 
+=======
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -69,3 +125,4 @@
     text-align: center;
     padding: 10px;
 }
+
