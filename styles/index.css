@@ -106,7 +106,7 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
-    border-bottom: 3px solid #AAA4CC;
+    border-bottom: 3px solid #501C65;
 }
 
 /* Main info on index-page */
@@ -186,6 +186,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-top: 3px solid #501C65;
 }
 .container-footer {
     display: grid;
