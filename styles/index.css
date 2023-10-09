@@ -1,5 +1,16 @@
+/*  
+Table of content styling
+    1. Styles for headers (fonts, sizes, colors
+    2. Header
+    3. Body
+    4. Main
+    5. Footer
+    6. Buttons and links
+    7. Specific styles for each page
 
+*/
 
+/* 1. Styles for headers (fonts, sizes, colors etc.) */
 h1  {
     font-family: 'Poppins', sans-serif;
     color: #501C65;
@@ -24,23 +35,6 @@ p   {
     font-size: 16px;
 }
 
-.button, .button a {
-    background-color: #501C65; 
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    border-radius: 6px;
-    padding: 12px 20px;
-    cursor: pointer;
-    text-decoration: none;
-    border-color: #AAA4CC;
-}
-
-.button:hover {
-    background-color:#AAA4CC;
-    transition: 0.8s;
-}
 
 /* Our color palette: 
     #501C65 (the dark purple provided by Michelle)
@@ -56,7 +50,8 @@ p   {
     */ 
 /*=======*/
 
-/* Navigation bar*/
+/* 2. Header */
+    /*2.1 Navigation bar*/
 
 .container-nav {
     display: grid;
@@ -84,17 +79,6 @@ p   {
 
 /*End of navigation bar*/
 
-body {
-    font-family:Arial, Helvetica, sans-serif;
-    margin: auto;
-    padding: 0;
-    background-color: #96AD8F;
-}
-main {
-    max-width: 1440px;
-    width: 100%;
-    background-color: #AAA4CC;
-}
 header {
     display: flex;
     flex-direction: column;
@@ -105,6 +89,103 @@ header {
     padding: 20px;
     border-bottom: 3px solid #501C65;
 }
+
+/* 3. Body */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 0;
+    background-color: #96AD8F;
+}
+
+/* 4. Main */
+main {
+    max-width: 1440px;
+    width: 100%;
+    background-color: #AAA4CC;
+}
+
+/* 5. Footer */
+footer {
+    background-color: #96AD8F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 3px solid #501C65;
+}
+.container-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 500px;
+    width: 100%;
+}
+.container-footer h3 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.adress {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.phone-email {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+/* 6. Buttons and links */
+.button, .button a {
+    background-color: #501C65; 
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-color: #AAA4CC;
+}
+
+.button:hover {
+    background-color:#AAA4CC;
+    transition: 0.8s;
+}
+.buttonsubmit {
+    background-color: #96AD8F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 7. Styles for specific pages */
+
+    /* 7.1 Index page */
+
+/* Main info on index-page */
+.container-mainInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-mainInfo > div {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+}
+.container-mainInfo img {
+    max-width: 400px;
+    border-radius: 6px;
+}
+
+/*End of main info on index-page */
+
+/* 7.2 About page */
 
 .page-container {
     width: 100%;
@@ -217,23 +298,12 @@ img {
     width: 100%; 
 }
 
-/* Main info on index-page */
-.container-mainInfo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.container-mainInfo > div {
-    max-width: 500px;
-    width: 100%;
-    margin: 20px;
-}
-.container-mainInfo img {
-    max-width: 400px;
-    border-radius: 6px;
-}
+/* 7.3 Gallery */
 
-/*End of main info on index-page */
+
+
+
+/* 7.4 Contact-page */
 
 .ContactUs {
     margin: 0;
@@ -272,47 +342,9 @@ img {
     border-radius: 4px;
 }
 
-.buttonsubmit {
-    background-color: #96AD8F;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+
 
 .hover {
     background-color: #96AD8F;
 }
 
-/* Footer*/
-footer {
-    background-color: #96AD8F;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-top: 3px solid #501C65;
-}
-.container-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    max-width: 500px;
-    width: 100%;
-}
-.container-footer h3 {
-    grid-column: 1/3;
-    grid-row: 1/2;
-}
-.adress {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-.phone-email {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-/*End footer*/
