@@ -37,6 +37,7 @@ p   {
     padding: 12px 20px;
     cursor: pointer;
     text-decoration: none;
+    border-color: #AAA4CC;
 }
 
 .button:hover {
@@ -64,6 +65,8 @@ p   {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
+    max-width: 1440px;
+    width: 100%;
 }
 .container-nav li {
     list-style: none;
@@ -86,16 +89,40 @@ p   {
 
 body {
     font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
     padding: 0;
     background-color: #f0f0f0;
 }
-
-.header {
+main {
+    max-width: 1440px;
+    width: 100%;
+    background-color: #AAA4CC;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #96AD8F;
     color: white;
     text-align: center;
     padding: 20px;
+    border-bottom: 3px solid #AAA4CC;
+}
+
+/* Main info on index-page */
+.container-mainInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-mainInfo > div {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+}
+.container-mainInfo img {
+    max-width: 400px;
+    border-radius: 6px;
 }
 
 .ContactUs {
