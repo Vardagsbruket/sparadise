@@ -54,3 +54,129 @@ p   {
 
     LINK to Google Fonts <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap" rel="stylesheet">
     */ 
+
+body {
+    background-position: center;
+    margin: 0;
+}
+
+.page-container {
+    width: 100%;
+}
+
+/*#about-us {
+    /*background-image: url(../images/header-test.webp);
+    background-color: #96AD8F;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}*/
+
+.content-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-items: flex-end;
+    height: 40vh;
+}
+
+.aboutus-txt {
+    padding: 20px; 
+    flex: 1;
+}
+
+.aboutus-img {
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.text-content h1 {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.treatments-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 100%;
+}
+
+.treatment {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    flex: 0 0 calc(33.33% - 10px);
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+}
+
+.treatment img {
+    max-width: 100%;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.treatment button {
+    margin-bottom: 20px;
+    align-items: center; 
+}
+
+.treatment p {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.ourstory {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.ourstory-h2 h2 {
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+.ourstory-p p {
+    margin-bottom: 20px;
+}
+
+.ourstory-p p:nth:child(2) {
+    margin-top: 20px;
+}
+
+#bottom-image {
+    background-image: url(../images/header-test.webp);
+    background-color: #96AD8F;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.spacer {
+    background-color: #ffffff; 
+    height: 80px; 
+    width: 100%; 
+}
