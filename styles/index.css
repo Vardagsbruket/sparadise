@@ -1,11 +1,129 @@
-header {
-    text-align: center;
+.body {
+    background-color: #96AD8F;
+
 }
-body {
-    
+
+h1  {
+    font-family: 'Poppins', sans-serif;
     color: #501C65;
+    font-size: 40px;
+}
+
+h2  {
+    font-family: 'Poppins', sans-serif;
+    color: #501C65;
+    font-size: 30px;
+}
+
+h3  {
+    font-family: 'Poppins', sans-serif;
+    color: #501C65;
+    font-size: 20px;
+}
+
+p   {
+    font-family: 'Montserrat', sans-serif;
+    color: #501C65;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #501C65; 
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#AAA4CC;
+    transition: 0.8s;
+}
+
+/* Our color palette: 
+    #501C65 (the dark purple provided by Michelle)
+    #96AD8F (the green sage one)
+    #AAA4CC (the lighter purple for "decor"/details, such as borders etc)
+    #FFFFFF (white for containers etc. where you want other color than green as background) 
+    
+    Our Fonts: 
+    Poppins - for headings (and logo?)
+    Montserrat - main p font 
+
+    LINK to Google Fonts <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    */ 
+/*=======*/
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #96AD8F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.ContactUs {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contact-info, .contact-form {
+    background-color:#96AD8F;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info h2, .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: bold;
+}
+.textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttonsubmit {
+    background-color: #96AD8F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hover {
     background-color: #96AD8F;
 }
-a {
-    color: #501C65;
+
+.footer {
+    background-color: #96AD8F;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
+
