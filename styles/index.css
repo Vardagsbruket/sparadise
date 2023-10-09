@@ -55,11 +55,6 @@ p   {
     LINK to Google Fonts <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap" rel="stylesheet">
     */ 
 
-body {
-    background-position: center;
-    margin: 0;
-}
-
 .page-container {
     width: 100%;
 }
