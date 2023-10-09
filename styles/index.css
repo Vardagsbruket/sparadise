@@ -7,7 +7,6 @@ Table of content styling
     5. Footer
     6. Buttons and links
     7. Specific styles for each page
-
 */
 
 /* 1. Styles for headers (fonts, sizes, colors etc.) */
@@ -304,6 +303,24 @@ img {
 
 
 /* 7.4 Contact-page */
+
+/* Main info on index-page */
+.container-mainInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-mainInfo > div {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+}
+.container-mainInfo img {
+    max-width: 400px;
+    border-radius: 6px;
+}
+
+/*End of main info on index-page */
 
 .ContactUs {
     margin: 0;
