@@ -62,6 +62,13 @@ p   {
 .container-nav li {
     list-style: none;
 }
+.container-nav a {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
 
 .home {
     grid-column: 1/2;
@@ -147,7 +154,7 @@ footer {
 }
 
 /* 6. Buttons and links */
-.button, .button a {
+.button {
     background-color: #501C65; 
     color: #ffffff;
     text-align: center;
