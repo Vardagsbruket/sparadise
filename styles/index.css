@@ -87,6 +87,10 @@ header {
     text-align: center;
     padding: 20px;
     border-bottom: 3px solid #501C65;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
 }
 
 /* 3. Body */
@@ -95,13 +99,17 @@ body {
     margin: auto;
     padding: 0;
     background-color: #96AD8F;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 /* 4. Main */
-main {
+main *{
     max-width: 1440px;
     width: 100%;
     background-color: #AAA4CC;
+    margin: auto;
 }
 
 /* 5. Footer */
@@ -114,6 +122,9 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     border-top: 3px solid #501C65;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
 }
 .container-footer {
     display: grid;
@@ -171,6 +182,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .container-mainInfo > div {
     max-width: 500px;
