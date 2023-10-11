@@ -6,12 +6,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <title>About us</title>
 </head>
 
 <!-- About Sparadise - header with h1, text, button and image-->
 <body>
+    <script src="./header.js"></script> <!-- Script that loads header on page-->
+
     <div class="page-container">
         <section id="about-us">
                 <div class="content-container">
@@ -23,14 +25,10 @@
                     <img class="aboutus-img" src="images/sparadise-aboutus.jpg" alt="Sparadise Spa">
                 </div>
         </section>
-    </div>
-    
-    <div class="spacer"></div>
-
-    <!-- Treatments - with h2, text, image and button (wrapped in a container so I can put them in a row with flexbox later on)-->
+        
+    <!-- Treatments -->
     <section id="treatments">
          <!--<h2>Our treatments</h2>-->
-
         <div class="treatments-container">
             <div class="treatment">
                 <img src="images/sparadise-massage.jpg" alt="Massage at Sparadise">
@@ -54,9 +52,6 @@
             </div>
     </div>
     </section>
- 
-    <div class="spacer"></div>
-
     <!-- Our Story - h2 and text -->
 <section id="our-story">
     <div class="ourstory">
@@ -72,6 +67,9 @@
 
     <!-- Bottom Image -->
     <section id="bottom-image"></section>
+</div>
+    
+    <script src="./footer.js"></script> <!-- Script that loads footer on page-->
 
 </body>
 </html>
