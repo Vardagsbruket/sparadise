@@ -7,10 +7,10 @@ template.innerHTML = `
         <div >
             <nav >
                 <ul class="container-nav">
-                    <li><button class="button home"><a href="./index.html">Home</a></button></li> 
-                    <li><button class="button about"><a href="./about.html">About</a></button></li>
-                    <li><button class="button gallery"><a href="./gallery.html">Gallery</a></button></li>
-                    <li><button class="button contact"><a href="./contact.html">Contact</a></button></li>
+                    <li><a href="./index.html"><button class="button home">Home</button></a></li> 
+                    <li><a href="./about.html"><button class="button about">About</button></a></li>
+                    <li><a href="./gallery.html"><button class="button gallery">Gallery</button></a></li>
+                    <li><a href="./contact.html"><button class="button contact">Contact</button></a></li>
                 </ul>
             </nav>
         </div>
