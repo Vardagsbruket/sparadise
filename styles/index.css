@@ -13,7 +13,7 @@ Table of content styling
 h1  {
     font-family: 'Poppins', sans-serif;
     color: #501C65;
-    font-size: 40px;
+    font-size: 80px;
 }
 
 h2  {
@@ -326,7 +326,17 @@ img {
 
 /* 7.3 Gallery */
 
+.container-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center ;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+}
 
 
 /* 7.4 Contact-page */
