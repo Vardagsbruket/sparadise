@@ -280,16 +280,21 @@ img {
 }
 
 .buttonsubmit {
-    background-color: #96AD8F;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
+    background-color: #501C65; 
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 12px 20px;
     cursor: pointer;
+    text-decoration: none;
+    border-color: #AAA4CC;
 }
 
 .hover {
-    background-color: #96AD8F;
+    background-color:#AAA4CC;
+    transition: 0.8s;
 }
 
 /* Footer*/
