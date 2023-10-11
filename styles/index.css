@@ -219,12 +219,12 @@ footer {
 
 .content-container {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1400px;
     margin-bottom: 30px;
     margin-top: 30px;
     align-items: flex-end;
-    height: 40vh;
 }
 
 .aboutus-txt {
@@ -234,14 +234,15 @@ footer {
 
 .aboutus-img {
     max-width: 100%;
-    width: 40%;
     height: auto;
     display: block;
     margin-bottom: 20px;
+    margin-right: auto; 
+    margin-left: auto;    
 }
 
 .text-content h1 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 img {
@@ -255,6 +256,8 @@ img {
     flex-wrap: wrap; 
     justify-content: space-between; 
     max-width: 100%;
+    margin-top: 30px;
+
 }
 
 .treatment {
@@ -287,6 +290,7 @@ img {
 
 .ourstory {
     display: flex;
+    flex-wrap: wrap; 
     flex-direction: column;
     max-width: 1400px;
     margin: 0 auto;
