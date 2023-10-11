@@ -225,7 +225,6 @@ footer {
     margin-bottom: 30px;
     margin-top: 30px;
     align-items: flex-end;
-    height: 40vh;
 }
 
 .aboutus-txt {
@@ -234,10 +233,12 @@ footer {
 }
 
 .aboutus-img {
-    width: 40%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-bottom: 20px;
+    margin-right: auto; 
+    margin-left: auto;    
 }
 
 .text-content h1 {
